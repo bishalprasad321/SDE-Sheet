@@ -1,6 +1,24 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+Problem Description :
+---------------------
+
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+
+You must do it in place.
+
+
+Constraints :
+-------------
+m == matrix.length
+n == matrix[0].length
+1 <= m, n <= 200
+-2^31 <= matrix[i][j] <= 2^31 - 1
+
+*/
+
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
